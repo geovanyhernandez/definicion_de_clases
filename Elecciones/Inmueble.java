@@ -1,8 +1,7 @@
 public class Inmueble {
-private String Departamento;
-private String Garaje;
-private String Trastero;
-
+private String departamento;
+private String garaje;
+private String trastero;
 
 public static void main (string args[]){
 
@@ -21,6 +20,22 @@ this.garaje = garaje;
   {
 this.trastero = trastero; 
   }
+
+public String getDepartamento()
+{
+	return departamento;
+}
+public String getGaraje()
+{
+	return garaje;
+}
+public String getTrastero()
+{
+	return trastero;
+}
+
+
+
 
  }
 }

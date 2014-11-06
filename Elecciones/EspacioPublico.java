@@ -1,7 +1,7 @@
 public class EspacioPublico {
 
-private String Nombre;
-private String Direccion;
+private String nombre;
+private String direccion;
 
 
 public static void main (string args[]){
@@ -15,6 +15,15 @@ public void setDireccion(String direccion)
   {
 this.direccion = direccion; 
   }
+
+  public String getNombre()
+{
+	return nombre;
+}
+public String getDireccion()
+{
+	return direccion;
+}
 
  }
 }

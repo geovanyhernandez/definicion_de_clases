@@ -1,11 +1,11 @@
 public class Habitante {
 
-private String Nombre;
-private String Apellido;
-private char Edad;
-private String Sexo;
-private String Dni;
-private String Direccion;
+private String nombre;
+private String apellido;
+private char edad;
+private String sexo;
+private String dni;
+private String direccion;
  
 public static void main (string args[]){
 
@@ -38,6 +38,34 @@ public void setDireccion(char direccion)
   {
 this.direccion = direccion; 
   }
+
+
+public String getNombre()
+{
+  return nombre;
+}
+public String getApellido()
+{
+  return apellido;
+}
+public String getEdad()
+{
+  return edad;
+}
+public String getSexo()
+{
+  return sexo;
+}
+public String getDni()
+{
+  return dni;
+}
+public String getDireccion()
+{
+  return direccion;
+}
+
+
 
  }
 }

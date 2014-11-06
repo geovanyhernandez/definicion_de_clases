@@ -1,9 +1,8 @@
 public class Ayuntamiento {
-private String Cargo;
-private String Nombre;
-private String Direccion;
 
-public static void main (string args[]){
+private String cargo;
+private String nombre;
+private String direccion;
 
 public void setCargo(String cargo)
   {
@@ -20,5 +19,18 @@ this.nombre = nombre;
 this.direccion = direccion; 
   }
 
- }
+public String getCargo()
+{
+	return cargo;
 }
+public String getNombre()
+{
+	return nombre;
+}
+public String getDireccion()
+{
+	return direccion;
+}
+
+}
+
