@@ -7,7 +7,7 @@ private String sexo;
 private String dni;
 private String direccion;
  
-public static void main (string args[]){
+//public static void main (string args[]){
 
  public void setNombre(String Nombre)
   {
@@ -67,7 +67,7 @@ public String getDireccion()
 
 
 
- }
+ //}
 }
 
 

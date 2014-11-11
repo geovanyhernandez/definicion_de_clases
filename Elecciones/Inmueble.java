@@ -3,7 +3,7 @@ private String departamento;
 private String garaje;
 private String trastero;
 
-public static void main (string args[]){
+//public static void main (string args[]){
 
 
 public void setDepartamento(String departamento)
@@ -37,5 +37,5 @@ public String getTrastero()
 
 
 
- }
+ //}
 }

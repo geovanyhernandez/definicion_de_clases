@@ -1,35 +1,35 @@
 public class Ayuntamiento {
 
 private String cargo;
-private String nombre;
-private String direccion;
+private String nombreayuntamiento;
+private String direccionayuntamiento;
 
 public void setCargo(String cargo)
   {
 this.cargo = cargo; 
   }
 
-public void setNombre(String nombre)
+public void setNombreayuntamiento(String nombreayuntamiento)
   {
-this.nombre = nombre; 
+this.nombreayuntamiento = nombreayuntamiento; 
   }
 
  public void setDireccion(String direccion)
   {
-this.direccion = direccion; 
+this.direccionayuntamiento = direccionayuntamiento; 
   }
 
 public String getCargo()
 {
 	return cargo;
 }
-public String getNombre()
+public String getNombreayuntamiento()
 {
-	return nombre;
+	return nombreayuntamiento;
 }
-public String getDireccion()
+public String getDireccionayuntamiento()
 {
-	return direccion;
+	return direccionayuntamiento;
 }
 
 }

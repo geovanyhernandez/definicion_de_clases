@@ -1,29 +1,29 @@
 public class EspacioPublico {
 
-private String nombre;
-private String direccion;
+private String nombreespacio;
+private String direccionespacio;
 
 
-public static void main (string args[]){
+//public static void main (string args[]){
 
-public void setNombre(String nombre)
+public void setNombreespacio(String nombreespacio)
   {
-this.nombre = nombre; 
+this.nombreespacio = nombreespacio; 
   }
 
 public void setDireccion(String direccion)
   {
-this.direccion = direccion; 
+this.direccionespacio = direccionespacio; 
   }
 
-  public String getNombre()
+  public String getNombreespacio()
 {
-	return nombre;
+	return nombreespacio;
 }
-public String getDireccion()
+public String getDireccionespacio()
 {
-	return direccion;
+	return direccionespacio;
 }
 
- }
+ //}
 }
