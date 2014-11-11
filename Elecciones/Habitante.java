@@ -2,14 +2,14 @@ public class Habitante {
 
 private String nombre;
 private String apellido;
-private char edad;
+private int edad;
 private String sexo;
 private String dni;
 private String direccion;
  
 //public static void main (string args[]){
 
- public void setNombre(String Nombre)
+ public void setNombre(String nombre)
   {
 this.nombre = nombre; 
   }
@@ -19,22 +19,22 @@ this.nombre = nombre;
 this.apellido = apellido; 
   }
 
- public void setEdad(char edad)
+ public void setEdad(int edad)
   {
 this.edad = edad; 
   }
 
-public void setSexo(char sexo)
+public void setSexo(String sexo)
   {
 this.sexo = sexo; 
   }
 
-public void setDni(char dni)
+public void setDni(String dni)
   {
 this.dni = dni; 
   }
 
-public void setDireccion(char direccion)
+public void setDireccion(String direccion)
   {
 this.direccion = direccion; 
   }
@@ -48,7 +48,7 @@ public String getApellido()
 {
   return apellido;
 }
-public String getEdad()
+public int getEdad()
 {
   return edad;
 }

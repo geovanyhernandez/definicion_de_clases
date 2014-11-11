@@ -1,7 +1,7 @@
 public class Inmueble {
 private String departamento;
 private String garaje;
-private String trastero;
+
 
 //public static void main (string args[]){
 
@@ -16,23 +16,15 @@ this.departamento = departamento;
 this.garaje = garaje; 
   }
 
-  public void setTrastero(String trastero)
+public String getDepartamento()
   {
-this.trastero = trastero; 
+	return departamento;
+  }
+public String getGaraje()
+  {
+	return garaje;
   }
 
-public String getDepartamento()
-{
-	return departamento;
-}
-public String getGaraje()
-{
-	return garaje;
-}
-public String getTrastero()
-{
-	return trastero;
-}
 
 
 

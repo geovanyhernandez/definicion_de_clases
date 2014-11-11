@@ -14,7 +14,7 @@ public void setNombreayuntamiento(String nombreayuntamiento)
 this.nombreayuntamiento = nombreayuntamiento; 
   }
 
- public void setDireccion(String direccion)
+ public void setDireccionayuntamiento(String direccionayuntamiento)
   {
 this.direccionayuntamiento = direccionayuntamiento; 
   }

@@ -4,14 +4,14 @@ private String nombreespacio;
 private String direccionespacio;
 
 
-//public static void main (string args[]){
+
 
 public void setNombreespacio(String nombreespacio)
   {
 this.nombreespacio = nombreespacio; 
   }
 
-public void setDireccion(String direccion)
+public void setDireccionespacio(String direccionespacio)
   {
 this.direccionespacio = direccionespacio; 
   }
