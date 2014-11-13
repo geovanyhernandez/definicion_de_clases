@@ -108,11 +108,13 @@ public class Main{
 		System.out.println("\n ");
 
 
+
 		
+	
 		try
 		{
 			
-			BufferedReader br = new BufferedReader(new FileReader("/home/zubiri/Java/Definicion_de_clases/Elecciones/ListaPartido.txt"));
+			BufferedReader br = new BufferedReader(new FileReader("/home/zubiri/ProyectosJava/Definicion_de_clases/Elecciones/ListaPartido.txt"));
 
 			ArrayList <String> partidos = new ArrayList <String> ();
 
@@ -140,6 +142,8 @@ public class Main{
 		}
 	}
 }
+
+
 
 
 

@@ -1,6 +1,8 @@
 lista de partidos :
-pp
-psoe
-upd
-ciu
-vox
+
+nombre:, part:, nombre:, numero:,  edad:
+pp, mario ,1 ,66
+psoe, pepe, 2, 67
+upd, pablo, 3, 68
+ciu, juan, 4, 69
+vox, alex, 5,70
