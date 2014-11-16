@@ -3,15 +3,7 @@ public class Partido
 	String nombre;
 	String presidente;
 	int numero; 
-	int edad;
 
-public Partido (String nombre, String presidente, int numero, int edad) {
-
-		this.nombre=nombre;
-	    this.presidente=presidente;
-	    this.numero=numero;
-	    this.edad=edad;
-	}
 
 
 public void setNombre(String nombre)
@@ -29,11 +21,6 @@ public void setNumero(int numero)
 	this.numero = numero;
 }
 
-public void setEdad(int edad)
-{
-	this.edad = edad;
-}
-
 
 public  String getNombre()
 {
@@ -48,11 +35,6 @@ public int getNumero()
 {
 	return numero;
 }
-public int getEdad()
-{
-	return edad;
-}
-
 }
 
 
