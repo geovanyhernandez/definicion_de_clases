@@ -1,8 +1,9 @@
 public class Partido
 {
-	String nombre;
-	String presidente;
-	int numero; 
+private String nombre;
+private String presidente;
+private int numero; 
+private int edad;
 
 
 
@@ -21,6 +22,11 @@ public void setNumero(int numero)
 	this.numero = numero;
 }
 
+public void setEdad(int edad)
+{
+	this.edad = edad;
+}
+
 
 public  String getNombre()
 {
@@ -35,6 +41,8 @@ public int getNumero()
 {
 	return numero;
 }
+public int getEdad()
+{
+	return edad;
 }
-
 
