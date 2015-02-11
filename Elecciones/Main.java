@@ -86,6 +86,7 @@ public class Main{
 
 		
 		String nombreayuntamiento = "donostia";
+	//	System.out.println("a");
 		String cargo = "alcalde";
 		String direccionayuntamiento = "bolevard";
 		String resultadodireccionayuntamiento, resultadonombreayuntamiento, resultadocargo;
@@ -110,8 +111,8 @@ public class Main{
 
 
 		
-	
-		try
+	//esto lo de abajo no va//
+	/*	try
 		{
 			
 			BufferedReader br = new BufferedReader(new FileReader("/home/zubiri/ProyectosJava/Definicion_de_clases/Elecciones/ListaPartido.txt"));
@@ -139,7 +140,7 @@ public class Main{
 		}catch(IOException e)
 		{
 			System.out.println("Error E/S: "+e);
-		}
+		}*/
 	}
 }
 
